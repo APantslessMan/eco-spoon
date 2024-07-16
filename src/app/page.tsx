@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import Hero from "./components/Hero";
 import Info from './components/Info';
 import Products from './components/Products';
+import ActionCall from "./components/ActionCall";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
      <Hero />
 <Info />
 <Products />
+<ActionCall />
 
     </>
   );

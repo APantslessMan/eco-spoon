@@ -8,14 +8,14 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
-    <div className="p-4 border rounded-lg text-center">
+    <div className="p-4 rounded-lg text-center">
       <div className="flex justify-center items-center mb-4">
         <Image 
           src={product.imageUrl} 
           alt={product.name} 
           width={400} 
           height={500} 
-          className="w-96 h-72 object-cover rounded-3xl" 
+          className="w-96 h-72 object-cover rounded-3xl shadow-md shadow-gray-500" 
         />
       </div>
       <h2 className="text-xl font-bold">{product.name}</h2>

@@ -7,7 +7,10 @@ const Hero = (props: Props) => {
     <div className="grid grid-cols-12">
       <div className="col-span-12 lg:col-span-6 h-[80vh] flex items-center justify-end bg-primary p-4">
         <div className="max-w-lg text-left *:text-black">
-          <div className="text-lg font-bold text-black">____ Environment First</div>
+        <div className="text-lg font-bold text-black flex items-center">
+  <div className="bg-black w-full max-w-[43px] min-h-[2px] mr-[10px] mt-3"></div>
+  Environment First
+</div>
           <div className="text-3xl md:text-5xl font-black pt-2">
             Sustainable Products For The Environment
           </div>
